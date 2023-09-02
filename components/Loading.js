@@ -9,11 +9,12 @@ export default function Loading() {
       <Spinner
         animation="border"
         style={{
-          color: '#00BF67',
+          color: 'red',
           width: '100px',
           height: '100px',
         }}
       />
+      <h3> Great job finding the error in Dev tools! Now solve it!</h3>
     </div>
   );
 }
